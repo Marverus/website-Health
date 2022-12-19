@@ -1,0 +1,65 @@
+
+  body{
+      padding: 0;
+     margin-top: 100px;
+     background-color:rgb(31, 47, 80) ;
+  }
+  label{
+      color: white;
+  }
+  h2{
+      color: white;
+  }
+  p{
+      color: white;
+  }
+ 
+  input[type=text], select, textarea {
+   
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 40px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+   
+    border: none;
+    cursor: pointer;
+    margin-left: 280px;
+    width: 20%;
+    height: 40px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 10px;
+    background-color: rgb(31, 47, 80);
+    padding: 10px;
+    margin-bottom: 90px;
+  }
+  
+
+  .kolom {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+ 
+  .baris:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

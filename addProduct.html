@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Body</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="header2">
+          <img src="Logo_1.png" alt="" />
+        </div>
+        <div class="drop" id="myTop">
+          <a href="product.html">Produk</a>
+          <a href="home.html">Home</a>
+          <a href="addProduct.html">Add Product</a>
+          <a href="article.html">Article</a>
+          <a href="support.html">Support</a>
+          <div class="dropdown">
+            <button class="dropbtn">Categories</button>
+            <div class="dropcontent">
+              <a href="salad.html">Salad</a>
+              <a href="buah.html">Buah-buahan</a>
+              <a href="cereal.html">Cereal</a>
+              <a href="light.html">Light Food</a>
+              <a href="low.html">Low Calories</a>
+              <a href="drink.html">Smooties</a>
+            </div>
+          </div>
+          <a
+            href="javascript:void(0);"
+            style="font-size: 15px"
+            class="icon"
+            onclick="myFunction()"
+            >&#9776;</a
+          >
+        </div>
+      </div>
+
+  <div class="forms">
+   <p style="color: white;size: 50pc;">Add Product</p>
+    <form name="myForm"  onsubmit="return validateForm()" >
+        <label for="">Product Name</label>
+       <input type="text" placeholder="input name" 
+       name="fname" id="">
+
+       <label for="">Product Size</label>
+       <input type="text" placeholder="input email" 
+       name="size" id="">
+       
+       <label for="">Calorie in Count</label>
+       <input type="text" placeholder="input calorie count" 
+       name="calorie" id="">
+
+       <label for="">Link For Images</label>
+       <input type="text" placeholder="input link for images" 
+       name="link" id="">
+
+       <label for="">Category</label>
+       <select id="category" name="category">
+
+        <option value="volvo">Salad</option>
+        <option value="saab">Low Cal</option>
+        <option value="fiat">Protein</option>
+        <option value="audi">Audi</option>
+       </select>
+       <label for="deskripsi">deskripsi</label>
+       <textarea id="description" 
+       name="productdesc" rows="10" cols="50">masukan deskripsi disini </textarea>
+       
+       <div class="horizontal">
+       <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+       <label for="vehicle1"> semua makanan ini sehat </label>
+       </div>
+       <div class="horizontal">
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> semua makanan ini rendah kalori </label>
+       </div>
+       
+       
+       <input type="submit"  value="register" 
+       name="" id="">
+      
+    </form>
+  </div>
+  <div class="footer">
+    <div class="medsos">
+      <a href="http://facebook.com">
+        <img src="fb.svg" alt="" class="logo-pic"
+      /></a>
+      <a href="http://twitter.com">
+        <img src="twitter.svg" alt="" class="logo-pic"
+      /></a>
+      <a href="http://ig.com">
+        <img src="ig.svg" alt="" class="logo-pic"
+      /></a>
+    </div>
+  </div>
+</body>
+</html>
